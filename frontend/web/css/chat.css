@@ -1,0 +1,119 @@
+.pb-chat-panel {
+  border: none;
+  margin-bottom: -5px;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 16px/1 FontAwesome;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: inherit;
+  line-height: 1;
+  font-family: FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-user:before {
+  content: "\f007";
+}
+
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: .75em;
+  vertical-align: -15%;
+}
+
+.time_date {
+  color: #747474;
+  display: block;
+  font-size: 12px;
+  margin: 8px 0 0;
+}
+
+.pb-chat-panel-heading {
+  margin-top: -5px;
+}
+
+.pb-chat-top-icons {
+  margin-top: 4px;
+}
+
+#support_label {
+  color: #999;
+}
+
+.pb-chat-labels {
+  font-size: 20px;
+}
+
+.pb-chat-labels-right {
+  margin-bottom: 0;
+  margin-right: 5px;
+}
+
+#chat {
+  position:relative;
+  width:auto; 
+  height: 250px; 
+  overflow: scroll; 
+  padding: 20px;
+}
+
+.to-bottom {
+  color: #747474;
+  position:absolute;
+  bottom:0;
+  right:48%;
+  font-size: 14px;
+  margin: 8px 0 0;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: inherit;
+  line-height: 1;
+  font-family: FontAwesome;
+  font-size: inherit;
+}
+
+.pb-chat-labels-left {
+  margin-left: 5px;
+  font-size: 100% !important;
+}
+
+.pb-chat-labels-primary {
+  margin-right: 5px;
+  font-size: 100% !important;
+}
+
+.pb-chat-fa-user {
+  border: 1px solid blue;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.pb-chat-textarea {
+  resize: none;
+}
+
+.pb-chat-dropdown {
+  width: 300px;
+}
+
+.pb-chat-btn-circle {
+  border-radius: 35px;
+}
+
+.pb-btn-circle-div {
+  padding-left: 0px;
+  margin-top: 12px;
+}
